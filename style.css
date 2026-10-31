@@ -1,0 +1,84 @@
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+ul li{list-style: none;
+    display:flex;
+    gap: 25px;
+    padding:0;
+    margin:0;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 100;
+    justify-content: flex-start;
+    position: relative;
+    left: 20px;
+    transition: color 0.3s ease;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: bold;   
+}
+ul li:hover{
+    color: #77777c;
+}
+
+body{background-color: #150463;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    }
+    .home-image{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ccc;
+    }
+    p{
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-wrap-style: auto;
+        color: #f1f1f1;
+        line-height: 1.8;
+        margin-bottom: 25px;
+    }
+h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    padding:30px 40px;
+    text-align: left;
+}
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #07031d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.boton:hover{
+    background-color: #7f78a7de;
+}
+.skill-image {
+    padding:50px 20px
+}
+.pic1 img, .pic2 img, .pic3 img, .pic4 img, .pic5 img, .pic6 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
